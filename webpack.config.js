@@ -10,7 +10,8 @@ module.exports = {
       Main: 'app/components/main.jsx',
       Nav: 'app/components/nav.jsx',
       Weather: 'app/components/weather.jsx',
-      About: 'app/components/about.jsx'
+      About: 'app/components/about.jsx',
+      Examples: 'app/components/examples.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
