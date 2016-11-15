@@ -31,9 +31,9 @@ function addPromise (a, b) {
   return new Promise(function(resolve, reject) {
     setTimeout(function() {
       if (typeof a && typeof b === 'number') {
-        resolve(a + b);
+        resolve('!!! SUCCESS !!!' + '\n' + '>>> ' + (a + b));
       }
-      reject ('!!! ERROR !!! Both inputs must be integers');
+      reject('!!! ERROR !!!' + '\n' + '>>> ' + 'Both inputs must be integers');
     }, 1000);
   });
 }
